@@ -78,6 +78,12 @@ body {
     width: 300px;
     height: 300px;
     object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    transition:  0,3s ease-in-out;
+}
+.gambar img:hover{
+    transform: scale(1.1);
 }
 .container2{
     max-width: 900px;
@@ -97,7 +103,8 @@ body {
     width: 200px;
     height: 200px;
     object-fit: cover;
-    
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
 }
 .header{
    text-align: center;
@@ -107,7 +114,6 @@ body {
     width: 200px;
     padding: 10px;
     border-radius: 10px;
-    box-shadow: 0px 4px 10px rgb(0, 0, 0, 1);
 }
 /* my first media quary and responsif web */
 @media screen and (max-width: 500px){
@@ -133,4 +139,16 @@ body {
         justify-content: center;
         align-items: center;
     }
+}
+
+button{
+    padding: 10px 20px; /* Ukuran tombol */
+    font-size: 16px; /* Ukuran teks */
+    font-weight: bold; /* Tebalkan teks */
+    color: black; /* Warna teks */
+    background-color: #999; /* Warna background */
+    border: none; /* Hilangkan border */
+    border-radius: 5px; /* Membuat sudut tombol melengkung */
+    cursor: pointer; /* Ubah kursor jadi tangan saat hover */ 
+    position: absolute;
 }
